@@ -1,4 +1,4 @@
-# This is my journey in ["The Ultimate React Course"](https://www.udemy.com/course/the-ultimate-react-course/)
+# This repository represents my journey and accomplishments in ["The Ultimate React Course"](https://www.udemy.com/course/the-ultimate-react-course/)
 
 ## VS Code Extensions
 
