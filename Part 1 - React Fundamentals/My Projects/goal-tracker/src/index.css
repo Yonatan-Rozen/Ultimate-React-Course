@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Lato:wght@300;700&family=Fugaz+One&display=swap");
+
+:root {
+  --color-lightest: #fff4e6;
+  --color-light: #ffe8cc;
+  --color-medium-light: #ffbe6f;
+  --color-medium: #ffa94d;
+  --color-dark: #ff922b;
+  --border-color: #343a40;
+}
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato";
+  background-color: var(--color-lightest);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app {
+  text-align: center;
+  min-height: 66vh;
+  margin: 30px;
+}
+
+.app h1 {
+  font-family: "Bungee Spice";
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.app button {
+  margin-top: 10px;
+}
+
+.table {
+  min-width: 400px;
+  width: 80vw;
+  max-width: 700px;
+  transition: 0.5s;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.add-task-form ul {
+  background-color: #ffd9ab;
+  border-top: double 5px var(--border-color);
+  border-bottom: double 5px var(--border-color);
+  border-radius: 0 0 20px 20px;
+  transition: 0.3s;
+}
+
+.task-table ul {
+  border: double 5px var(--border-color);
+  border-bottom: none;
+  list-style-type: none;
+  background-color: var(--color-light);
+  align-items: center;
+  border-radius: 20px;
+}
+
+.table.form-open .task-table ul {
+  border-bottom: none;
+  border-radius: 20px 20px 0 0;
+}
+
+.table.form-open .add-task-form ul {
+  border-bottom: double 5px var(--border-color);
+  border-radius: 0 0 20px 20px;
+}
+
+.add-task-form ul,
+.task-table ul {
+  display: grid;
+  grid-template-columns: 0.25fr 1.5fr 0.6fr 0.8fr 0.5fr 0.4fr;
+  border: double 5px var(--border-color);
+  gap: 10px;
+  padding: 10px;
+  list-style-type: none;
+  background-color: var(--color-light);
+  align-items: center;
+}
+
+.add-task-form ul {
+  background-color: #ffd9ab;
+  border-radius: 0 0 20px 20px;
+  padding: 5px 10px 10px 10px;
+  border-top: none;
+  border-bottom: double 5px var(--border-color);
+}
+
+.task-table span {
+  text-align: center;
+  align-self: center;
+}
+
+.add-task-form input[type="checkbox"],
+.task-table input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.add-task-form input[type="text"],
+.add-task-form input[type="date"],
+.add-task-form select,
+.add-task-form button,
+.task-table select {
+  font-size: 12px;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  margin: 0 auto;
+}
+.add-task-form button {
+  padding: 10px;
+}
+
+button {
+  background-color: var(--color-medium);
+  color: var(--border-color);
+  padding: 4px;
+  border: none;
+  border-radius: 7px;
+  padding: 0.8rem 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: var(--color-dark);
+}
+
+footer {
+  position: absolute;
+  background-color: var(--color-medium);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  text-align: center;
+  font-family: "Fugaz One";
+}
+
+footer a {
+  cursor: pointer;
+  color: var(--border-color);
+  text-underline-offset: 2px;
+}
+
+.fab.fa-github {
+  margin-left: "5px";
+}

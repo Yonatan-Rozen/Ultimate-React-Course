@@ -1,18 +1,14 @@
-# 06| Eat n Split
+# Goal Tracker
 
 ## Pages
 
-### Split bill
-
-![split bill](/src/view/split.png)
-
-### Add friend
-
-![Add friend](/src/view/add.png)
+![Goal Tracker](goal-tracker.png)
 
 ## Description
 
-This project uses the fundamentals of components, props & useState hook
+A simple goal tracker table to test my React skills 💪🏻\
+This project uses the fundamentals of React, including\
+components, props & useState hook
 
 # Getting Started with Create React App
 

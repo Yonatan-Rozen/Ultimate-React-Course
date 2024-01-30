@@ -1,18 +1,25 @@
-# 06| Eat n Split
+# Users management system
 
 ## Pages
 
-### Split bill
+### Registration form
 
-![split bill](/src/view/split.png)
+![Registration](registration.png)
 
-### Add friend
+### Login Form
 
-![Add friend](/src/view/add.png)
+![Login](login.png)
+
+### Edit Form
+
+![Edit](edit.png)
 
 ## Description
 
-This project uses the fundamentals of components, props & useState hook
+A simplified user management system which includes:
+
+- Login Form, Registration Form & Edit Form
+- Tables which represent each user state
 
 # Getting Started with Create React App
 
