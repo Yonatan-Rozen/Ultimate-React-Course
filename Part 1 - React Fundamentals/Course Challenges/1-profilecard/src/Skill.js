@@ -4,8 +4,8 @@ export default function Skill({ color, skill, level }) {
       <span>{skill}</span>
       <span>
         {level === "beginner" && "👶"}
-        {level === "intermediate" && "👌"}
-        {level === "advenced" && "💪"}
+        {level === "intermediate" && "💪"}
+        {level === "advenced" && "🧠"}
       </span>
     </div>
   );
