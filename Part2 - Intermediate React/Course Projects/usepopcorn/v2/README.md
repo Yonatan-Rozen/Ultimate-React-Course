@@ -6,7 +6,7 @@
 
 ## Description
 
-This projects includes:
+This projects includes everything from [usePopcorn (v1)](../v1) as well as:
 
 - how to use the useEffect hook
 - async function inside of useEffect hook
