@@ -72,7 +72,7 @@ class App extends React.Component {
         {this.state.weather.weathercode && (
           <Weather
             weather={this.state.weather}
-            location={this.state.location}
+            location={this.state.displayLocation}
           />
         )}
       </div>
