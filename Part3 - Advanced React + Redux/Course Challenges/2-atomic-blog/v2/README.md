@@ -1,4 +1,4 @@
-# 1| Atomic Blog (v1)
+# 1| Atomic Blog (v2)
 
 ## Pages
 

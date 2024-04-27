@@ -1,4 +1,4 @@
-# 03| The React Redux Bank
+# 03| The React Redux Bank (v1)
 
 ## Pages
 
