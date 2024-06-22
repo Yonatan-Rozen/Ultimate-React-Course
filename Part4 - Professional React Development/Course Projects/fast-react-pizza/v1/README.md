@@ -1,4 +1,4 @@
-# 01| Fast React Pizza
+# 01| Fast React Pizza (v1)
 
 ## Pages
 
