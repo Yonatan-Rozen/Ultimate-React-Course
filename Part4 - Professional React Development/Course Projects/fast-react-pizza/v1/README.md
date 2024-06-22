@@ -14,7 +14,7 @@
 
 #### New Order
 
-![New Order](./public/new-order.png)
+![New Order](new-order.png)
 
 #### Overview Order
 
